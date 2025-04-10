@@ -1,13 +1,13 @@
 # <img src="https://github.com/user-attachments/assets/73dbccf5-09e4-49a2-b96b-ce39ac9ef967" alt="litify_bot_icon" style="width:30px;"> Litify
-Criminal complaint drafting system that aims to save time for lawyers and make legal assistance easy for clients.
+변호사의 업무 효율을 높이고, 의뢰인이 쉽게 법률 서비스를 이용할 수 있도록 하는 형사 고소장 자동 작성 시스템.
 
 ## Setup
-### 1. Create the virtual environment.
+### 1. 가상환경 생성
 ```
 git clone https://github.com/kkmjkim/Litify.git
 conda create -n litify python=3.10
 ```
-### 2. Install the required packages.
+### 2. 패키지 설치
 ```
 cd Litify
 pip install -r api/requirements.txt
@@ -15,29 +15,29 @@ npm install
 pip install nodeenv
 nodeenv env
 ```
-### 3. Fill in your solar API key.
-Fill in your API key by replacing `<<Your solar API key>>` in the `upstage_api_key` variable within the `/api/state.py` file.
+### 3. API키 설정
+`conf.d/config.yaml` 설정
 
 ## Run
-### Running Frontend
-Follow the below steps.
-```
-conda activate litify
-. env/bin/activate
-cd frontend
-npm start
-```
-If you want to access with Public IP,
-```
-npm start -- --host
-```
-
-### Running Backend
-#### 1. Open the new terminal
-#### 2. Follow the below steps
+### Server 실행
+#### 1. 새로운 터미널 열기
+#### 2. 아래 명령어 실행
 ```
 conda activate litify
 export PYTHONPATH=$PWD
 cd api
 fastapi run main.py --port 8000
 ```
+
+### Client 실행
+```
+conda activate litify
+. env/bin/activate
+cd frontend
+npm start
+```
+Public IP로 접근 시,
+```
+npm start -- --host
+```
+
