@@ -1,0 +1,29 @@
+{
+  "name": "litify",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "axios": "^1.7.7",
+    "marked": "^14.1.2",
+    "marked-highlight": "^2.1.4",
+    "vue": "^3.2.47",
+    "vue-router": "^4.3.0",
+    "vuetify": "^3.6.11",
+    "vuex": "^4.1.0",
+    "zero-md": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.6"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}

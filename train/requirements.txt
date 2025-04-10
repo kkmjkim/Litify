@@ -1,0 +1,11 @@
+predibase
+datasets
+langchain
+langchain-upstage
+solar-as-judge
+tokenizers
+transformers
+langchain-community
+datasets
+chromadb
+langchain-upstage

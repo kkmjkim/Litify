@@ -1,0 +1,12 @@
+fastapi[standard]
+pydantic
+langchain-upstage
+langchain-core
+langchain
+predibase
+transformers
+unstructured
+langchain-chroma
+nodeenv
+faiss-cpu
+langchain-community
