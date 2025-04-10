@@ -1,4 +1,4 @@
-### <업스테이지 글로벌 해커톤 전체 3위 (Legal 트랙 1위) 수상작>
+### <업스테이지 글로벌 AI 해커톤 전체 3위 (Legal 트랙 1위) 수상작>
 
 # <img src="https://github.com/user-attachments/assets/73dbccf5-09e4-49a2-b96b-ce39ac9ef967" alt="litify_bot_icon" style="width:30px;"> Litify
 변호사의 업무 효율을 높이고, 의뢰인이 쉽게 법률 서비스를 이용할 수 있도록 하는 형사 고소장 자동 작성 시스템.
