@@ -3,6 +3,9 @@
 # <img src="https://github.com/user-attachments/assets/73dbccf5-09e4-49a2-b96b-ce39ac9ef967" alt="litify_bot_icon" style="width:30px;"> Litify
 변호사의 업무 효율을 높이고, 의뢰인이 쉽게 법률 서비스를 이용할 수 있도록 하는 형사 고소장 작성을 위한 대화 시스템.
 
+## Demo
+https://github.com/user-attachments/assets/8419cd36-aefb-4494-a250-8b5a44d5078d
+
 ## Setup
 ### 1. 가상환경 생성
 ```
